@@ -15,4 +15,5 @@ items = [1, 2, 3, 4, 5]
 
 my_select(items) do |item|
   item.even?
+  items
 end
