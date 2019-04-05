@@ -4,7 +4,7 @@ new_collection = []
   i = 0 
   while i < collection.length
     if yield(collection[i]) #if true
-      new_collection.push(conllection[i])
+      new_collection.push(collection[i])
     end
   i += 1 
   end 
