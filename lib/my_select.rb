@@ -11,4 +11,6 @@ new_collection = []
   new_collection
 end
 
-my_select()
+my_select(items) do |item|
+  item.even?
+end
